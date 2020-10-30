@@ -1,0 +1,59 @@
+.container {
+  font-family: "Times New Roman";
+  font-size: 3;
+  color: white;
+}
+body {
+  background-color: #8675a9;
+}
+.container {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: violet;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.container a,
+.dropdownbtn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.container a:hover,
+.dropdownbtn:hover {
+  color: #f1f1f1;
+}
+.active {
+  background-color: green;
+  color: white;
+}
+.dropdown-content {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .container {
+    padding-top: 15px;
+  }
+  .container a {
+    font-size: 18px;
+  }
+}
